@@ -1,0 +1,21 @@
+Brick: 3
+ID: 03
+Title: Interface, HUD & Operator Controls
+
+Objective:
+- Provide an operator-facing HUD layer (OLED + terminal dashboard + optional web status panel).
+- Expose system state, network mode, logging state, and running tools at a glance.
+
+Key Decisions:
+- Script-first data sources (bash scripts output KEY=VALUE)
+- Render targets: OLED (optional), tmux/CLI dashboard, web mini status panel (optional)
+
+Operator UX Principles:
+- Low cognitive load
+- High signal / low noise
+- Text-first
+- Fail-safe indicators for mode + capture/logging state
+
+Next Bricks:
+- Brick 3 wireless tooling integration
+- Brick 4 automation/governance

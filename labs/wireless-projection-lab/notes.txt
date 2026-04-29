@@ -1,0 +1,11 @@
+Brick: 3
+Lab: Wireless Projection
+
+Key Findings:
+- Miracast functional on Linux
+- WiFi-only causes RF contention
+- Ethernet backhaul improves stability
+
+Technical Insight:
+Miracast uses WiFi Direct (P2P).
+Shared WiFi bandwidth increases latency and jitter.
